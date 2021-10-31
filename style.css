@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: ;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.img-bg {
+    width: 100%;
+    height: 250vh;
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.img-logo {
+    width: 20%;
+    margin: auto;
+    padding: px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 50;
+    right: 70%;
+}
+
+.img-music {
+    width: 20%;
+    margin: auto;
+    padding: 150px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 10%;
+    right: 20%;
+    
+}
+
+
+.logo {
+    width: 290px;
+}
+
+.titles {
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    left: 13%;
+    font-size: 30px;
+    color: cornflowerblue;
+    line-height: 100px;
+    float: left;
+    text-shadow: 2px 2px 0 #000, 2px 0 #000, 2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.para {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    left: 13%;
+    font-size: 17px;
+    color:darkcyan;
+    text-shadow: 2px 2px 0 #000, 2px 0 #000, 2px 2px 0 #000, 2px 2px 0 #000;
+    
+}
+
+.sounds {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    font-size: 15px;
+    color: aqua;
+    float: left;
+    text-shadow: 2px 2px 0 #000, 2px 0 #000, 2px 2px 0 #000, 2px 2px 0 #000;
+}
+
+.end {
+    width: 100%;
+    position: absolute;
+    top: 233%;
+    left: 40%;
+    font-size: 17px;
+    color: aqua;
+}
+
+.fab {
+    color:red;
+    font-size: 88px;
+    position: absolute;
+    top: 07%;
+    left: 80%;
+    cursor: pointer;
+}
+
+.mrj {
+    color:green;
+    font-size: 20px;
+    position: absolute;
+    top:11%;
+    left:55%;
+}
